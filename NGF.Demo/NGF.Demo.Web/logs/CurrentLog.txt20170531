@@ -1,0 +1,92 @@
+INFO  2017-05-31 09:24:34,522   731ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]
+
+INFO  2017-05-31 09:25:37,131 63340ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-05-31 09:25:49,129 75338ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-05-31 09:26:01,459 87668ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-05-31 09:26:20,879 107088ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-05-31 09:27:32,167 178376ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-05-31 09:29:03,524   131ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]
+
+INFO  2017-05-31 11:30:43,772   674ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]
+
+INFO  2017-05-31 11:30:47,880  4782ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-05-31 11:46:24,469 941371ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[id] = @p1	
+Parameters:
+@p1[Guid] = 614847bb-b942-41e5-bf42-1865411ab407
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[id] = '614847bb-b942-41e5-bf42-1865411ab407'
+
+INFO  2017-05-31 11:46:24,495 941397ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.SaveItem()
+UPDATE [Item] SET [item_no]=@p1,[description]=@p2 WHERE [Item].[id] = @p3	
+Parameters:
+@p1[String] = 9J.2H101.005
+@p2[String] = test433
+@p3[Guid] = 614847bb-b942-41e5-bf42-1865411ab407
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.SaveItem()
+UPDATE [Item] SET [item_no]=N'9J.2H101.005',[description]=N'test433' WHERE [Item].[id] = '614847bb-b942-41e5-bf42-1865411ab407'
+
+INFO  2017-05-31 11:46:29,402 946304ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+

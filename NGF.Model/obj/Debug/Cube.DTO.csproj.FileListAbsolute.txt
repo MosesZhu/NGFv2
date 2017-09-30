@@ -1,0 +1,4 @@
+F:\Cube\Cube.DTO\bin\Debug\Cube.DTO.dll
+F:\Cube\Cube.DTO\bin\Debug\Cube.DTO.pdb
+F:\Cube\Cube.DTO\obj\Debug\Cube.DTO.dll
+F:\Cube\Cube.DTO\obj\Debug\Cube.DTO.pdb

@@ -1,0 +1,1214 @@
+INFO  2017-03-20 10:33:32,234   320ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:33:36,823  4909ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:33:51,856 19941ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:33:51,982 20068ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:33:51,988 20074ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:33:52,002 20088ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:33:51
+@p2[String] = e81d1a63-d19e-4117-965b-ca81dc0fd73c
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:33:51' as datetime),[secret_key]=N'e81d1a63-d19e-4117-965b-ca81dc0fd73c' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:33:53,293 21379ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = 
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N''
+
+INFO  2017-03-20 10:33:53,300 21386ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:33:53,309 21395ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:34:01,677 29762ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuan
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuan'
+
+INFO  2017-03-20 10:34:01,696 29781ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:34:01,714 29799ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:35:42,196 130282ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:35:42,199 130285ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:35:42,201 130287ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:35:42
+@p2[String] = 9e7553e0-a614-484f-a90a-f9bde9f345fc
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:35:42' as datetime),[secret_key]=N'9e7553e0-a614-484f-a90a-f9bde9f345fc' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:35:42,230 130316ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:35:42,249 130335ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:35:42,580 130666ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 9e7553e0-a614-484f-a90a-f9bde9f345fc
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '9e7553e0-a614-484f-a90a-f9bde9f345fc'
+
+INFO  2017-03-20 10:35:42,582 130668ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:35:42,584 130670ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 9e7553e0-a614-484f-a90a-f9bde9f345fc
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '9e7553e0-a614-484f-a90a-f9bde9f345fc'
+
+INFO  2017-03-20 10:35:42,586 130672ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:35:42,591 130677ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 9e7553e0-a614-484f-a90a-f9bde9f345fc
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '9e7553e0-a614-484f-a90a-f9bde9f345fc'
+
+INFO  2017-03-20 10:35:42,594 130680ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:35:42,596 130682ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:35:42,598 130684ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = 320c9091-4eb2-4b6e-8d79-7d3538d84148
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = '320c9091-4eb2-4b6e-8d79-7d3538d84148'
+
+INFO  2017-03-20 10:35:42,601 130687ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 10:35:42,603 130689ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 10:35:42,607 130693ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = @p1	
+Parameters:
+@p1[Guid] = cf97885c-a93e-475c-b4a3-21cbe35d686d
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = 'cf97885c-a93e-475c-b4a3-21cbe35d686d'
+
+INFO  2017-03-20 10:43:54,904 622990ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 9e7553e0-a614-484f-a90a-f9bde9f345fc
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '9e7553e0-a614-484f-a90a-f9bde9f345fc'
+
+INFO  2017-03-20 10:43:54,906 622992ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:43:54,908 622994ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 9e7553e0-a614-484f-a90a-f9bde9f345fc
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '9e7553e0-a614-484f-a90a-f9bde9f345fc'
+
+INFO  2017-03-20 10:43:54,911 622997ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:43:54,942 623028ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:44:02,907 630993ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:44:02,910 630996ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:02,913 630999ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:44:02
+@p2[String] = 44fa4663-fa14-4161-bdce-a9e5ba7c5070
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:44:02' as datetime),[secret_key]=N'44fa4663-fa14-4161-bdce-a9e5ba7c5070' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:02,936 631022ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:44:21,144 649229ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:44:21,147 649232ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:21,150 649235ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:44:21
+@p2[String] = 15735811-c493-42f9-ab94-ae8739489559
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:44:21' as datetime),[secret_key]=N'15735811-c493-42f9-ab94-ae8739489559' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:21,186 649271ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:44:21,190 649275ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:44:21,649 649734ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 15735811-c493-42f9-ab94-ae8739489559
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '15735811-c493-42f9-ab94-ae8739489559'
+
+INFO  2017-03-20 10:44:21,650 649735ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:21,652 649737ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 15735811-c493-42f9-ab94-ae8739489559
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '15735811-c493-42f9-ab94-ae8739489559'
+
+INFO  2017-03-20 10:44:21,654 649739ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:21,655 649740ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 15735811-c493-42f9-ab94-ae8739489559
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '15735811-c493-42f9-ab94-ae8739489559'
+
+INFO  2017-03-20 10:44:21,657 649742ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:21,658 649743ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:21,660 649745ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = 320c9091-4eb2-4b6e-8d79-7d3538d84148
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = '320c9091-4eb2-4b6e-8d79-7d3538d84148'
+
+INFO  2017-03-20 10:44:21,662 649747ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 10:44:21,665 649750ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 10:44:21,667 649752ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = @p1	
+Parameters:
+@p1[Guid] = cf97885c-a93e-475c-b4a3-21cbe35d686d
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = 'cf97885c-a93e-475c-b4a3-21cbe35d686d'
+
+INFO  2017-03-20 10:44:43,355 671441ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 15735811-c493-42f9-ab94-ae8739489559
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '15735811-c493-42f9-ab94-ae8739489559'
+
+INFO  2017-03-20 10:44:43,358 671444ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:43,361 671447ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = 15735811-c493-42f9-ab94-ae8739489559
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = '15735811-c493-42f9-ab94-ae8739489559'
+
+INFO  2017-03-20 10:44:43,364 671450ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:43,412 671498ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:44:59,248 687334ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:44:59,253 687339ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:59,256 687342ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:44:59
+@p2[String] = 21a0a892-ce8f-4514-9ece-dc3634455696
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:44:59' as datetime),[secret_key]=N'21a0a892-ce8f-4514-9ece-dc3634455696' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:44:59,281 687367ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:46:55,153 803238ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:46:55,162 803247ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:46:55,165 803250ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:46:55
+@p2[String] = 66164c75-bb94-4520-a199-7a08507c12a0
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:46:55' as datetime),[secret_key]=N'66164c75-bb94-4520-a199-7a08507c12a0' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:46:55,181 803266ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:47:16,619 824704ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:47:16,622 824707ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:47:16,624 824709ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:47:16
+@p2[String] = cbb26733-798b-49a8-aa37-5432d1ee1bd3
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:47:16' as datetime),[secret_key]=N'cbb26733-798b-49a8-aa37-5432d1ee1bd3' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:47:40,428 848514ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:47:54,398 862484ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:48:12,164 880250ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = cbb26733-798b-49a8-aa37-5432d1ee1bd3
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'cbb26733-798b-49a8-aa37-5432d1ee1bd3'
+
+INFO  2017-03-20 10:48:12,167 880253ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:48:13,116 881202ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = cbb26733-798b-49a8-aa37-5432d1ee1bd3
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'cbb26733-798b-49a8-aa37-5432d1ee1bd3'
+
+INFO  2017-03-20 10:48:13,118 881204ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:48:16,175 884260ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = cbb26733-798b-49a8-aa37-5432d1ee1bd3
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'cbb26733-798b-49a8-aa37-5432d1ee1bd3'
+
+INFO  2017-03-20 10:48:16,177 884262ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:48:16,413 884498ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:48:19,761 887847ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = 320c9091-4eb2-4b6e-8d79-7d3538d84148
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = '320c9091-4eb2-4b6e-8d79-7d3538d84148'
+
+INFO  2017-03-20 10:48:22,184 890270ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 10:48:39,285 907371ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 10:48:39,288 907374ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = @p1	
+Parameters:
+@p1[Guid] = cf97885c-a93e-475c-b4a3-21cbe35d686d
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = 'cf97885c-a93e-475c-b4a3-21cbe35d686d'
+
+INFO  2017-03-20 10:48:51,657 919743ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = cbb26733-798b-49a8-aa37-5432d1ee1bd3
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'cbb26733-798b-49a8-aa37-5432d1ee1bd3'
+
+INFO  2017-03-20 10:48:51,659 919745ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:48:51,662 919748ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = cbb26733-798b-49a8-aa37-5432d1ee1bd3
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'cbb26733-798b-49a8-aa37-5432d1ee1bd3'
+
+INFO  2017-03-20 10:48:51,663 919749ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:48:52,599 920685ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:49:17,984 946070ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:49:17,984 946070ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:49:21,452 949538ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:49:21,458 949544ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:49:21
+@p2[String] = 7deb185b-0e8a-4c9e-8531-6520129629bd
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:49:21' as datetime),[secret_key]=N'7deb185b-0e8a-4c9e-8531-6520129629bd' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:59:25,093 1553179ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 10:59:25,349 1553435ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 10:59:25,357 1553443ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 10:59:25,358 1553444ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 10:59:25
+@p2[String] = d1cc6f8d-d144-4972-a041-2fda7243631e
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 10:59:25' as datetime),[secret_key]=N'd1cc6f8d-d144-4972-a041-2fda7243631e' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:05,213    73ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 11:08:15,302 10162ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 11:08:15,308 10168ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:15,319 10179ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 11:08:15
+@p2[String] = fe8299b7-8c0c-4917-b87e-febdcadc7a63
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 11:08:15' as datetime),[secret_key]=N'fe8299b7-8c0c-4917-b87e-febdcadc7a63' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:15,394 10254ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 11:08:15,718 10578ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fe8299b7-8c0c-4917-b87e-febdcadc7a63
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fe8299b7-8c0c-4917-b87e-febdcadc7a63'
+
+INFO  2017-03-20 11:08:15,720 10580ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:15,726 10586ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fe8299b7-8c0c-4917-b87e-febdcadc7a63
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fe8299b7-8c0c-4917-b87e-febdcadc7a63'
+
+INFO  2017-03-20 11:08:15,727 10587ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:15,729 10589ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:15,732 10592ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = 320c9091-4eb2-4b6e-8d79-7d3538d84148
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = '320c9091-4eb2-4b6e-8d79-7d3538d84148'
+
+INFO  2017-03-20 11:08:15,734 10594ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 11:08:15,737 10597ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 11:08:15,739 10599ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = @p1	
+Parameters:
+@p1[Guid] = cf97885c-a93e-475c-b4a3-21cbe35d686d
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = 'cf97885c-a93e-475c-b4a3-21cbe35d686d'
+
+INFO  2017-03-20 11:08:18,143 13003ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fe8299b7-8c0c-4917-b87e-febdcadc7a63
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fe8299b7-8c0c-4917-b87e-febdcadc7a63'
+
+INFO  2017-03-20 11:08:18,145 13005ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:18,188 13048ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 11:08:24,531 19390ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 11:08:24,538 19397ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:24,542 19401ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 11:08:24
+@p2[String] = f8652828-9c50-456d-86d3-315dfb5a91de
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 11:08:24' as datetime),[secret_key]=N'f8652828-9c50-456d-86d3-315dfb5a91de' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:08:24,559 19418ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 11:14:01,270    72ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = john.zc.zhuang
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'john.zc.zhuang'
+
+INFO  2017-03-20 11:14:01,281    83ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:14:01,288    90ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/20/2017 11:14:01
+@p2[String] = bd3fa97f-4b81-45c4-8111-f6aea4cdd86d
+@p3[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-20 11:14:01' as datetime),[secret_key]=N'bd3fa97f-4b81-45c4-8111-f6aea4cdd86d' WHERE [cb_token].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:14:01,865   667ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 11:14:02,294  1096ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 11:14:02,590  1392ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = bd3fa97f-4b81-45c4-8111-f6aea4cdd86d
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'bd3fa97f-4b81-45c4-8111-f6aea4cdd86d'
+
+INFO  2017-03-20 11:14:02,591  1393ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:14:02,593  1395ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = bd3fa97f-4b81-45c4-8111-f6aea4cdd86d
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'bd3fa97f-4b81-45c4-8111-f6aea4cdd86d'
+
+INFO  2017-03-20 11:14:02,594  1396ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:14:02,602  1404ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = bd3fa97f-4b81-45c4-8111-f6aea4cdd86d
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'bd3fa97f-4b81-45c4-8111-f6aea4cdd86d'
+
+INFO  2017-03-20 11:14:02,603  1405ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:14:02,605  1407ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:14:02,607  1409ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = 320c9091-4eb2-4b6e-8d79-7d3538d84148
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = '320c9091-4eb2-4b6e-8d79-7d3538d84148'
+
+INFO  2017-03-20 11:14:02,609  1411ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 11:14:02,612  1414ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 11:14:02,616  1418ms DbSession                 - Text:	--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = @p1	
+Parameters:
+@p1[Guid] = cf97885c-a93e-475c-b4a3-21cbe35d686d
+
+SQL:--w3wp.Cube.Web.LoginService.login()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = 'cf97885c-a93e-475c-b4a3-21cbe35d686d'
+
+INFO  2017-03-20 11:39:26,226   237ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-20 11:39:53,710 27721ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = bd3fa97f-4b81-45c4-8111-f6aea4cdd86d
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'bd3fa97f-4b81-45c4-8111-f6aea4cdd86d'
+
+INFO  2017-03-20 11:39:53,721 27732ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:39:53,725 27736ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = bd3fa97f-4b81-45c4-8111-f6aea4cdd86d
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'bd3fa97f-4b81-45c4-8111-f6aea4cdd86d'
+
+INFO  2017-03-20 11:39:53,726 27737ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:39:53,739 27750ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = bd3fa97f-4b81-45c4-8111-f6aea4cdd86d
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'bd3fa97f-4b81-45c4-8111-f6aea4cdd86d'
+
+INFO  2017-03-20 11:39:53,740 27751ms DbSession                 - Text:	--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Base.PageBase.GetLanguageData()
+SELECT   TOP 1 [cb_user].* FROM [cb_user]  WHERE [cb_user].[id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:39:53,744 27755ms DbSession                 - Text:	--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = @p1	
+Parameters:
+@p1[Guid] = a97f46a9-2501-4266-8c1c-8bc1738eea3b
+
+SQL:--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_user_function].* FROM [cb_user_function]  WHERE [cb_user_function].[user_id] = 'a97f46a9-2501-4266-8c1c-8bc1738eea3b'
+
+INFO  2017-03-20 11:39:53,746 27757ms DbSession                 - Text:	--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = 320c9091-4eb2-4b6e-8d79-7d3538d84148
+
+SQL:--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = '320c9091-4eb2-4b6e-8d79-7d3538d84148'
+
+INFO  2017-03-20 11:39:53,749 27760ms DbSession                 - Text:	--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_system].* FROM [cb_system]  WHERE [cb_system].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 11:39:53,752 27763ms DbSession                 - Text:	--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = @p1	
+Parameters:
+@p1[Guid] = ea9a5272-754e-4c7a-a5bf-a21667767707
+
+SQL:--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_function].* FROM [cb_function]  WHERE [cb_function].[id] = 'ea9a5272-754e-4c7a-a5bf-a21667767707'
+
+INFO  2017-03-20 11:39:53,754 27765ms DbSession                 - Text:	--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = @p1	
+Parameters:
+@p1[Guid] = cf97885c-a93e-475c-b4a3-21cbe35d686d
+
+SQL:--w3wp.Cube.Web.PortalService.getMenu()
+SELECT   [cb_domain].* FROM [cb_domain]  WHERE [cb_domain].[id] = 'cf97885c-a93e-475c-b4a3-21cbe35d686d'
+
+INFO  2017-03-24 13:33:56,988   220ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-24 13:35:10,354 73585ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-24 13:35:48,536 111767ms DbSession                 - Text:	--iisexpress.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = Moses.Zhu
+
+SQL:--iisexpress.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'Moses.Zhu'
+
+INFO  2017-03-24 13:35:53,473 116704ms DbSession                 - Text:	--iisexpress.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-24 13:35:53,536 116767ms DbSession                 - Text:	--iisexpress.Cube.Web.LoginService.RenewToken()
+INSERT INTO [cb_token] ([user_id],[login_time],[secret_key]) VALUES (@p1,@p2,@p3)	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+@p2[DateTime] = 03/24/2017 13:35:53
+@p3[String] = 03ade59b-fc4f-4ddc-ae5a-2e127d900413
+
+SQL:--iisexpress.Cube.Web.LoginService.RenewToken()
+INSERT INTO [cb_token] ([user_id],[login_time],[secret_key]) VALUES ('321dd028-b221-499a-bda4-ae0b6e310ad8',cast('2017-03-24 13:35:53' as datetime),N'03ade59b-fc4f-4ddc-ae5a-2e127d900413')
+
+INFO  2017-03-24 13:36:29,161 152393ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-24 13:38:06,072 249303ms DbSession                 - Text:	--iisexpress.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = @p1	
+Parameters:
+@p1[String] = Moses.Zhu
+
+SQL:--iisexpress.Cube.Web.LoginService.login()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[login_name] = N'Moses.Zhu'
+
+INFO  2017-03-24 13:38:06,081 249312ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-24 13:38:06,087 249318ms DbSession                 - Text:	--iisexpress.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Web.LoginService.login()
+SELECT   * FROM [cb_token]  WHERE [cb_token].[user_id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-24 13:38:06,120 249351ms DbSession                 - Text:	--iisexpress.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=@p1,[secret_key]=@p2 WHERE [cb_token].[user_id] = @p3	
+Parameters:
+@p1[DateTime] = 03/24/2017 13:38:06
+@p2[String] = b9e2b045-8067-477d-9693-679b284fde18
+@p3[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Web.LoginService.RenewToken()
+UPDATE [cb_token] SET [login_time]=cast('2017-03-24 13:38:06' as datetime),[secret_key]=N'b9e2b045-8067-477d-9693-679b284fde18' WHERE [cb_token].[user_id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-24 13:39:04,683 307914ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-24 13:39:08,985 312216ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-24 13:39:28,278 331509ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+

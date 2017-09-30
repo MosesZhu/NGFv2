@@ -1,0 +1,5 @@
+F:\Cube\Cube.Plugin\bin\Debug\Cube.Plugin.dll
+F:\Cube\Cube.Plugin\bin\Debug\Cube.Plugin.pdb
+F:\Cube\Cube.Plugin\obj\Debug\Cube.Plugin.dll
+F:\Cube\Cube.Plugin\obj\Debug\Cube.Plugin.pdb
+F:\Cube\Cube.Plugin\obj\Debug\Cube.Plugin.csprojResolveAssemblyReference.cache

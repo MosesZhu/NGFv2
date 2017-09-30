@@ -1,0 +1,12 @@
+2006-08-14	Log								调整系统各个Log的生成目录
+2006-08-15	FramePage		GridView_CSS	去除系统默认设置网格线, 此处导致用户无法设置网格线
+											去除系统默认设置HeadStyle，此处导致用户无法设置HeadStyle的Align
+2006-08-17	NewCalendar						去除日历多余的空白区域
+2006-08-29	RenderScript	SelectUser		用户选择页面可同时返回该用户的部门	
+2006-09-20  Anthem控件      DropDownList	修正选择空项不触发SelectIndexChanged事件的bug
+2006-09-28  NewCalendar     Date format     增加返回的日期格式，可选择 yyyy/MM/dd, yyyy-MM-dd, yyyyMMdd
+
+2009-08-21 增加控件
+
+
+

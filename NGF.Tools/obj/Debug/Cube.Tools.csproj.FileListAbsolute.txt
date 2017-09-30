@@ -1,0 +1,12 @@
+F:\Cube\Cube.Tools\bin\Debug\Cube.Tools.exe.config
+F:\Cube\Cube.Tools\bin\Debug\Cube.Tools.exe
+F:\Cube\Cube.Tools\bin\Debug\Cube.Tools.pdb
+F:\Cube\Cube.Tools\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+F:\Cube\Cube.Tools\bin\Debug\Microsoft.SqlServer.Smo.dll
+F:\Cube\Cube.Tools\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+F:\Cube\Cube.Tools\obj\Debug\Cube.Tools.DatabaseCreater.DatabaseCreaterForm.resources
+F:\Cube\Cube.Tools\obj\Debug\Cube.Tools.Properties.Resources.resources
+F:\Cube\Cube.Tools\obj\Debug\Cube.Tools.csproj.GenerateResource.Cache
+F:\Cube\Cube.Tools\obj\Debug\Cube.Tools.exe
+F:\Cube\Cube.Tools\obj\Debug\Cube.Tools.pdb
+F:\Cube\Cube.Tools\obj\Debug\Cube.Tools.csprojResolveAssemblyReference.cache

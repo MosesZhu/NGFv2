@@ -1,0 +1,488 @@
+﻿body, h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;;
+    font-size: 12px;
+}
+
+.form-control, .sidebar-menu li.header, .sidebar-menu .treeview-menu > li > a, .btn {
+    font-size: 12px;
+}
+
+.modal-title, .ajs-header {
+    font-size: 36px;
+    font-weight: normal !important;
+}
+
+.ajs-header, .ajs-footer {
+    border-radius: 0px !important;
+}
+
+.ajs-header {
+    padding-left: 15px !important;
+}
+
+.ajs-body {
+    min-height: 0px !important;
+    padding: 15px 0px !important;
+}
+
+.ajs-commands {
+    margin-right: 15px !important;
+    right: 0px !important;
+}
+
+.ajs-content {
+    padding: 0px !important;
+}
+
+.alertify.ajs-maximized .ajs-body .ajs-content {
+    top: 100px !important;
+}
+
+.ajs-footer {
+    padding: 15px !important;
+}
+
+select.form-control {
+    padding-top: 4px;
+}
+
+.form-control, .ngf-form-control {
+    height: 31px;
+    border-color: #d2d6de;
+    box-shadow: none;
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    /*-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);*/
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.ngf-form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+        /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);*/
+}
+
+.ngf-form-control[disabled] {
+    background: #EEE;
+    color: #999;
+}
+
+.datepicker.dropdown-menu, .bootstrap-timepicker-widget {
+    border-radius: 0px;
+}
+
+.ngf-label {
+    margin: 15px 0px 0px 0px;
+    word-break: break-word;
+    padding-left: 15px;
+}
+
+.ngf-modal-body .ngf-form-row-1 .ngf-label {
+    margin: 5px 1px;
+    padding: 0px;
+}
+
+.modal-dialog .ngf-label:first-child {
+    margin-top: 0px;
+}
+
+.ngf-form-row-1 .ngf-form-control {
+    margin-top: 0px;
+}
+
+.ngf-select {
+    padding-top: 3px;
+}
+
+.form-control-row {
+    padding: 15px 0px 0px 0px;
+}
+
+.form-control-row:nth-child(even) {
+    padding-right: 7.5px;
+}
+
+.form-control-row:nth-child(odd) {
+    padding-left: 7.5px;
+}
+
+    .form-control-row input[type=text], .form-control-row input[type=date], .form-control-row input[type=password],
+    .form-control-row input[type=datetime], .form-control-row input[type=email], .form-control-row input[type=number] {
+        width: 100%;
+    }
+
+.ngf-inputbar input, .ngf-inputbar button, .ngf-inputbar select {
+    margin-top: 15px;
+}
+
+    .ngf-inputbar input:first-child, .ngf-inputbar button:first-child {
+        margin-top: 0px;
+    }
+
+.login-box-body {
+    opacity: .8;
+    box-shadow: 2px 2px 6px grey;
+}
+
+.btn, .form-control, .bootstrap-table, .table, .fixed-table-container {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.pagination-detail, .pagination {
+    margin-bottom: 5px !important;
+}
+
+.clearfix {
+    height: 15px;
+}
+
+.pagination a {
+    padding: 5px 9px 5px 9px !important;
+}
+
+.page-list button {
+    padding: 5px 9px;
+}
+
+.bootstrap-table .fixed-table-toolbar .columns {
+    margin-top: 0px;
+}
+
+.ngf-toolbar {
+    text-align: left;
+    padding-top: 15px;
+}
+
+    .ngf-toolbar > button, .ngf-toolbar > input {
+        /*margin: 15px 15px 0px 0px*/
+    }
+
+.ngf-page-row {
+    padding: 15px 15px 0px 15px;
+}
+
+.ngf-data-area, .ngf-input-area {
+    padding-top: 0px !important;
+}
+
+.ngf-page-header-input {
+    margin-top: 5px;
+}
+
+.ngf-btn-toolbar, .ngf-btn-dlg-toolbar {
+    margin: 5px 0px 0px 0px;
+}
+
+.ngf-btn-60 {
+    width: 60px;
+}
+
+.ngf-btn-90 {
+    width: 90px;
+}
+
+.ngf-btn-120 {
+    width: 120px;
+}
+
+.ngf-tbx {
+    /*margin-top: 5px;*/
+    margin-top: 0px;
+}
+
+.ngf-tbx-required, .ngf-tbx-required:focus {
+    border-color: #f39c12;
+    box-shadow: none;
+}
+
+/*Dialog*/
+.ngf-modal-header, .modal-header {
+    color: #FFF !important;
+}
+
+.ngf-modal-header .close, .modal-header .close {
+    color: #FFF !important;
+    opacity: .6 !important;
+}
+
+.ngf-modal-header .close:hover, .modal-header .close:hover {
+    opacity: 1 !important;
+}
+
+.modal-title, .ajs-header {
+    font-size: 18px !important;
+}
+
+.ajs-header {
+    color: #FFF !important;
+}
+    /*bootstrap table*/
+.skin-blue .pagination > .active > a,
+.skin-blue .pagination > .active > span,
+.skin-blue .pagination > .active > a:hover,
+.skin-blue .pagination > .active > span:hover,
+.skin-blue .pagination > .active > a:focus,
+.skin-blue .pagination > .active > span:focus,
+.skin-blue-light .pagination > .active > a,
+.skin-blue-light .pagination > .active > span,
+.skin-blue-light .pagination > .active > a:hover,
+.skin-blue-light .pagination > .active > span:hover,
+.skin-blue-light .pagination > .active > a:focus,
+.skin-blue-light .pagination > .active > span:focus,
+.skin-blue .ngf-modal-header,
+.skin-blue-light .ngf-modal-header,
+.skin-blue-light .ajs-header,
+.skin-blue .ajs-header,
+.skin-blue .modal-header,
+.skin-blue-light .modal-header {
+    background-color: #3c8dbc !important;
+}
+
+.skin-black .pagination > .active > a,
+.skin-black .pagination > .active > span,
+.skin-black .pagination > .active > a:hover,
+.skin-black .pagination > .active > span:hover,
+.skin-black .pagination > .active > a:focus,
+.skin-black .pagination > .active > span:focus,
+.skin-black-light .pagination > .active > a,
+.skin-black-light .pagination > .active > span,
+.skin-black-light .pagination > .active > a:hover,
+.skin-black-light .pagination > .active > span:hover,
+.skin-black-light .pagination > .active > a:focus,
+.skin-black-light .pagination > .active > span:focus,
+.skin-black-light .ngf-modal-header,
+.skin-black .ngf-modal-header,
+.skin-black-light .ajs-header,
+.skin-black .ajs-header,
+.skin-black-light .modal-header,
+.skin-black .modal-header {
+    background-color: #222d32 !important;
+}
+
+.skin-green .pagination > .active > a,
+.skin-green .pagination > .active > span,
+.skin-green .pagination > .active > a:hover,
+.skin-green .pagination > .active > span:hover,
+.skin-green .pagination > .active > a:focus,
+.skin-green .pagination > .active > span:focus,
+.skin-green-light .pagination > .active > a,
+.skin-green-light .pagination > .active > span,
+.skin-green-light .pagination > .active > a:hover,
+.skin-green-light .pagination > .active > span:hover,
+.skin-green-light .pagination > .active > a:focus,
+.skin-green-light .pagination > .active > span:focus,
+.skin-green-light .ngf-modal-header,
+.skin-green .ngf-modal-header,
+.skin-green-light .ajs-header,
+.skin-green .ajs-header,
+.skin-green-light .modal-header,
+.skin-green .modal-header {
+    background-color: #00a65a !important;
+    border-color: #00a65a !important;
+}
+
+.skin-red .pagination > .active > a,
+.skin-red .pagination > .active > span,
+.skin-red .pagination > .active > a:hover,
+.skin-red .pagination > .active > span:hover,
+.skin-red .pagination > .active > a:focus,
+.skin-red .pagination > .active > span:focus,
+.skin-red-light .pagination > .active > a,
+.skin-red-light .pagination > .active > span,
+.skin-red-light .pagination > .active > a:hover,
+.skin-red-light .pagination > .active > span:hover,
+.skin-red-light .pagination > .active > a:focus,
+.skin-red-light .pagination > .active > span:focus,
+.skin-red-light .ngf-modal-header,
+.skin-red .ngf-modal-header,
+.skin-red-light .ajs-header,
+.skin-red .ajs-header,
+.skin-red-light .modal-header,
+.skin-red .modal-header {
+    background-color: #dd4b39 !important;
+    border-color: #dd4b39 !important;
+}
+
+.skin-yellow .pagination > .active > a,
+.skin-yellow .pagination > .active > span,
+.skin-yellow .pagination > .active > a:hover,
+.skin-yellow .pagination > .active > span:hover,
+.skin-yellow .pagination > .active > a:focus,
+.skin-yellow .pagination > .active > span:focus,
+.skin-yellow-light .pagination > .active > a,
+.skin-yellow-light .pagination > .active > span,
+.skin-yellow-light .pagination > .active > a:hover,
+.skin-yellow-light .pagination > .active > span:hover,
+.skin-yellow-light .pagination > .active > a:focus,
+.skin-yellow-light .pagination > .active > span:focus,
+.skin-yellow-light .ngf-modal-header,
+.skin-yellow .ngf-modal-header,
+.skin-yellow-light .ajs-header,
+.skin-yellow .ajs-header,
+.skin-yellow-light .modal-header,
+.skin-yellow .modal-header {
+    background-color: #f39c12 !important;
+    border-color: #f39c12 !important;
+}
+
+.skin-purple .pagination > .active > a,
+.skin-purple .pagination > .active > span,
+.skin-purple .pagination > .active > a:hover,
+.skin-purple .pagination > .active > span:hover,
+.skin-purple .pagination > .active > a:focus,
+.skin-purple .pagination > .active > span:focus,
+.skin-purple-light .pagination > .active > a,
+.skin-purple-light .pagination > .active > span,
+.skin-purple-light .pagination > .active > a:hover,
+.skin-purple-light .pagination > .active > span:hover,
+.skin-purple-light .pagination > .active > a:focus,
+.skin-purple-light .pagination > .active > span:focus,
+.skin-purple-light .ngf-modal-header,
+.skin-purple .ngf-modal-header,
+.skin-purple-light .ajs-header,
+.skin-purple .ajs-header,
+.skin-purple-light .modal-header,
+.skin-purple .modal-header {
+    background-color: #605ca8 !important;
+    border-color: #605ca8 !important;
+}
+/*loader*/
+.ngf-loader-mask {
+    background: #000;
+    /*background: -webkit-radial-gradient(#222, #000);
+    background: radial-gradient(#222, #000);*/
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99998;
+    opacity: 0.3;
+    display: none;
+}
+.ngf-loader {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+    display: none;
+}
+
+.loader-inner {
+    bottom: 0;
+    height: 8em;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8em;
+    text-align: center;
+    opacity: 1;
+}
+
+.ngf-loading,
+.ngf-loading:after {
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+}
+
+.ngf-loading {
+    /*margin: 60px auto;*/
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-left: 1.1em solid #ffffff;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+}
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.ngf-modal-body {
+    max-height: 350px;
+    overflow: auto;
+}
+
+.ngf-modal-footer .btn {
+    margin-left: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .ngf-toolbar > .btn, .user-footer .btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .ngf-modal-footer .btn:first-child {
+        margin-top: 0px !important;
+    }
+
+    .ngf-toolbar > .btn:first-child, .user-footer .btn:first-child {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ngf-form-row-1 .ngf-form-control {
+        margin-top: 0px;
+    }
+
+    .ngf-inputbar input, .ngf-inputbar button, .ngf-inputbar select {
+        margin-top: 0px;
+    }
+}    

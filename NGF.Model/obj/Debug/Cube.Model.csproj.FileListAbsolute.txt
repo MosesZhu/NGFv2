@@ -1,0 +1,10 @@
+F:\Cube\Cube.Model\bin\Debug\Cube.Model.dll
+F:\Cube\Cube.Model\bin\Debug\Cube.Model.pdb
+F:\Cube\Cube.Model\bin\Debug\ITS.Data.dll
+F:\Cube\Cube.Model\bin\Debug\log4net.dll
+F:\Cube\Cube.Model\obj\Debug\Cube.Model.dll
+F:\Cube\Cube.Model\obj\Debug\Cube.Model.pdb
+F:\Cube\Cube.Model\bin\Debug\Oracle.DataAccess.dll
+F:\Cube\Cube.Model\bin\Debug\ITS.WebFramework.PermissionManagement.Entity.dll
+F:\Cube\Cube.Model\bin\Debug\ITS.Common.AssemblyInfoExtestion.dll
+F:\Cube\Cube.Model\obj\Debug\Cube.Model.csprojResolveAssemblyReference.cache

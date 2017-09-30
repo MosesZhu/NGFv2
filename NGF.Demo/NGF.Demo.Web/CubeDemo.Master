@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CubeDemo.master.cs" Inherits="CubeDemo.Web.CubeDemo" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="http://10.85.129.44/CubePortal/Content/bootstrap.css">
+    <link rel="stylesheet" href="http://10.85.129.44/CubePortal/Content/bootstrap-table.min.css">
+    <asp:ContentPlaceHolder ID="PageStyleContentHolder" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="content-wrapper" style="padding:20px;">
+        <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+
+        <script src="http://10.85.129.44/CubePortal/Scripts/jquery-2.2.3.min.js" ></script>    
+        <script src="http://10.85.129.44/CubePortal/Scripts/jquery.uriAnchor.js" ></script>
+        <script src="http://10.85.129.44/CubePortal/Scripts/framework.js" ></script>
+        <script src="http://10.85.129.44/CubePortal/Scripts/jquery.slimscroll.min.js" ></script>
+        <script src="http://10.85.129.44/CubePortal/Scripts/bootstrap.js" ></script>
+        <script src="http://10.85.129.44/CubePortal/Scripts/bootstrap-table.js" ></script>
+
+        <asp:ContentPlaceHolder ID="PageScriptContentHolder" runat="server">
+        </asp:ContentPlaceHolder>     
+    </form>
+</body>
+</html>

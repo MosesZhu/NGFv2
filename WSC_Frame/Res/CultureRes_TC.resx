@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CAP_BTN_ADD" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="CAP_BTN_CLOSE" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="CAP_BTN_COLLAPSE" xml:space="preserve">
+    <value>收起</value>
+  </data>
+  <data name="CAP_BTN_DELETE" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="CAP_BTN_DELETE_FILE" xml:space="preserve">
+    <value>删除附件</value>
+  </data>
+  <data name="CAP_BTN_EXPAND" xml:space="preserve">
+    <value>展开</value>
+  </data>
+  <data name="CAP_BTN_FINISH" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="CAP_BTN_GETPASSWORD" xml:space="preserve">
+    <value>忘记密码</value>
+  </data>
+  <data name="CAP_BTN_LOGIN" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="CAP_BTN_OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="CAP_BTN_QUERY" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="CAP_BTN_QUERYALL" xml:space="preserve">
+    <value>查询所有</value>
+  </data>
+  <data name="CAP_BTN_REFRESH" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="CAP_BTN_REPAIRE" xml:space="preserve">
+    <value>修复</value>
+  </data>
+  <data name="CAP_BTN_SAVE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="CAP_BTN_SEARCH" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="CAP_BTN_SYS_ADMIN_CLEAN" xml:space="preserve">
+    <value>清理</value>
+  </data>
+  <data name="CAP_BTN_SYS_ADMIN_SYNC_STATUS" xml:space="preserve">
+    <value>同步状态</value>
+  </data>
+  <data name="CAP_BTN_UPLOAD" xml:space="preserve">
+    <value>附加</value>
+  </data>
+  <data name="CAP_BTN_VALIDATE" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="CAP_CHECKBOX_AUTHORITY" xml:space="preserve">
+    <value>自動驗證</value>
+  </data>
+  <data name="CAP_LBL_ACTIVE" xml:space="preserve">
+    <value>是否有效</value>
+  </data>
+  <data name="CAP_LBL_ADDRESS" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="CAP_LBL_BY_DEPT" xml:space="preserve">
+    <value>父结点-部门</value>
+  </data>
+  <data name="CAP_LBL_BY_MOD" xml:space="preserve">
+    <value>父结点-模块</value>
+  </data>
+  <data name="CAP_LBL_BY_ROLE" xml:space="preserve">
+    <value>父结点-角色</value>
+  </data>
+  <data name="CAP_LBL_BY_SITE" xml:space="preserve">
+    <value>父結點-Site</value>
+  </data>
+  <data name="CAP_LBL_BY_USER" xml:space="preserve">
+    <value>父结点-用户</value>
+  </data>
+  <data name="CAP_LBL_CHECK_AUTHORITY" xml:space="preserve">
+    <value>菜單權限</value>
+  </data>
+  <data name="CAP_LBL_DEPT" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="CAP_LBL_DEPT_CODE" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="CAP_LBL_DESC" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="CAP_LBL_DISP_STYLE" xml:space="preserve">
+    <value>显示方式</value>
+  </data>
+  <data name="CAP_LBL_DISPLAY_NAME" xml:space="preserve">
+    <value>显示名</value>
+  </data>
+  <data name="CAP_LBL_EMP_ID" xml:space="preserve">
+    <value>员工ID</value>
+  </data>
+  <data name="CAP_LBL_EMP_NAME" xml:space="preserve">
+    <value>员工姓名</value>
+  </data>
+  <data name="CAP_LBL_EMP_NO" xml:space="preserve">
+    <value>工号</value>
+  </data>
+  <data name="CAP_LBL_ENTRY_DATE" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="CAP_LBL_EXT" xml:space="preserve">
+    <value>分机</value>
+  </data>
+  <data name="CAP_LBL_EXT_NO" xml:space="preserve">
+    <value>分机号</value>
+  </data>
+  <data name="CAP_LBL_FILE_NAME" xml:space="preserve">
+    <value>附件名</value>
+  </data>
+  <data name="CAP_LBL_FUNC_ID" xml:space="preserve">
+    <value>功能 ID</value>
+  </data>
+  <data name="CAP_LBL_HEADLINK_PUPOP" xml:space="preserve">
+    <value>P--弹出新窗口</value>
+  </data>
+  <data name="CAP_LBL_HEADLINK_SELF" xml:space="preserve">
+    <value>L--本窗口打开</value>
+  </data>
+  <data name="CAP_LBL_IS_SYS" xml:space="preserve">
+    <value>系统保护</value>
+  </data>
+  <data name="CAP_LBL_JOB_DESC" xml:space="preserve">
+    <value>职能描述</value>
+  </data>
+  <data name="CAP_LBL_KEY" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="CAP_LBL_LINKTYPE" xml:space="preserve">
+    <value>链接类型</value>
+  </data>
+  <data name="CAP_LBL_LOGIN_NAME" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="CAP_LBL_MAIL_ACCOUNT" xml:space="preserve">
+    <value>邮件地址</value>
+  </data>
+  <data name="CAP_LBL_MODULE" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="CAP_LBL_MODULE_ID" xml:space="preserve">
+    <value>模块 ID</value>
+  </data>
+  <data name="CAP_LBL_MODULE_NAME" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="CAP_LBL_MODULE_NAME_SC" xml:space="preserve">
+    <value>模块 SC</value>
+  </data>
+  <data name="CAP_LBL_MODULE_NAME_TC" xml:space="preserve">
+    <value>模块 TC</value>
+  </data>
+  <data name="CAP_LBL_NAME" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="CAP_LBL_NAVIGATING" xml:space="preserve">
+    <value>导航菜单</value>
+  </data>
+  <data name="CAP_LBL_ORDER" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="CAP_LBL_PARENT_ID" xml:space="preserve">
+    <value>父模块 ID</value>
+  </data>
+  <data name="CAP_LBL_PARENT_MODULE" xml:space="preserve">
+    <value>父模块</value>
+  </data>
+  <data name="CAP_LBL_PARENT_NAME" xml:space="preserve">
+    <value>父模块</value>
+  </data>
+  <data name="CAP_LBL_PASS_WORD" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="CAP_LBL_PASSWORD" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="CAP_LBL_RESULT" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="CAP_LBL_ROLE" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="CAP_LBL_ROLE_ID" xml:space="preserve">
+    <value>角色 ID</value>
+  </data>
+  <data name="CAP_LBL_ROLE_NAME" xml:space="preserve">
+    <value>角色名称</value>
+  </data>
+  <data name="CAP_LBL_SITE" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="CAP_LBL_SITE_CODE" xml:space="preserve">
+    <value>区域厂别</value>
+  </data>
+  <data name="CAP_LBL_SUB_SYS_ID" xml:space="preserve">
+    <value>子系統</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_CLEAN_FORM" xml:space="preserve">
+    <value>清理NPM中垃圾表单</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_SYNC_INV" xml:space="preserve">
+    <value>INV表单和FlowER表单状态</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_SYNC_ITEM" xml:space="preserve">
+    <value>料号申请单和FlowER表单状态</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_SYNC_PACN" xml:space="preserve">
+    <value>PACN表单和FlowER表单状态</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_SYNC_STATUS" xml:space="preserve">
+    <value>同步表单状态</value>
+  </data>
+  <data name="CAP_LBL_UPLOAD_BROWSE" xml:space="preserve">
+    <value>浏览本地文件</value>
+  </data>
+  <data name="CAP_LBL_UPLOAD_TIME" xml:space="preserve">
+    <value>上传时间</value>
+  </data>
+  <data name="CAP_LBL_UPLOADER" xml:space="preserve">
+    <value>上传者</value>
+  </data>
+  <data name="CAP_LBL_USER" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="CAP_LBL_USER_NAME" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="CAP_LBL_VALUE" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="CAP_TTL_ACTIVE" xml:space="preserve">
+    <value>是否有效</value>
+  </data>
+  <data name="CAP_TTL_DEPT_MODULE" xml:space="preserve">
+    <value>权限--&gt;部门权限设置</value>
+  </data>
+  <data name="CAP_TTL_FUNC" xml:space="preserve">
+    <value>功能项设置</value>
+  </data>
+  <data name="CAP_TTL_HEADLINK" xml:space="preserve">
+    <value>顶部链接设置</value>
+  </data>
+  <data name="CAP_TTL_HEADLINK_EDIT" xml:space="preserve">
+    <value>顶部链接编辑</value>
+  </data>
+  <data name="CAP_TTL_LEFTMENU" xml:space="preserve">
+    <value>导航菜单维护</value>
+  </data>
+  <data name="CAP_TTL_LEFTMENU_EDIT" xml:space="preserve">
+    <value>导航菜单编辑</value>
+  </data>
+  <data name="CAP_TTL_PARA" xml:space="preserve">
+    <value>全局参数维护</value>
+  </data>
+  <data name="CAP_TTL_PARA_EDIT" xml:space="preserve">
+    <value>全局参数编辑</value>
+  </data>
+  <data name="CAP_TTL_PMT_QRY" xml:space="preserve">
+    <value>权限--&gt;权限查询</value>
+  </data>
+  <data name="CAP_TTL_ROLE" xml:space="preserve">
+    <value>权限--&gt;角色维护</value>
+  </data>
+  <data name="CAP_TTL_ROLE_DEPT" xml:space="preserve">
+    <value>权限--&gt;角色部门关系</value>
+  </data>
+  <data name="CAP_TTL_ROLE_MODULE" xml:space="preserve">
+    <value>权限--&gt;角色权限设置</value>
+  </data>
+  <data name="CAP_TTL_ROLE_USER" xml:space="preserve">
+    <value>权限--&gt;角色用户关系</value>
+  </data>
+  <data name="CAP_TTL_SIMULATE_USER" xml:space="preserve">
+    <value>模拟用户</value>
+  </data>
+  <data name="CAP_TTL_SITE_MODULE" xml:space="preserve">
+    <value>權限--&gt;Site權限設置</value>
+  </data>
+  <data name="CAP_TTL_SYS_ADMIN" xml:space="preserve">
+    <value>NPM 系统管理工具</value>
+  </data>
+  <data name="CAP_TTL_UPLOAD" xml:space="preserve">
+    <value>附件上传</value>
+  </data>
+  <data name="CAP_TTL_USER_ACTIVE" xml:space="preserve">
+    <value>有效</value>
+  </data>
+  <data name="CAP_TTL_USER_EDIT" xml:space="preserve">
+    <value>用户资料更新</value>
+  </data>
+  <data name="CAP_TTL_USER_INACTIVE" xml:space="preserve">
+    <value>失效</value>
+  </data>
+  <data name="CAP_TTL_USER_MAINTAIN" xml:space="preserve">
+    <value>用户维护</value>
+  </data>
+  <data name="CAP_TTL_USER_MODULE" xml:space="preserve">
+    <value>权限--&gt;用户权限设置</value>
+  </data>
+  <data name="CAP_TTL_USERSELECTOR" xml:space="preserve">
+    <value>选择用户</value>
+  </data>
+  <data name="CAP_TTL_VALIDATECFG" xml:space="preserve">
+    <value>检查系统配置信息</value>
+  </data>
+  <data name="MSG_ERR_ACCESS_PAGE" xml:space="preserve">
+    <value>访问该页时发生错误!</value>
+  </data>
+  <data name="MSG_ERR_ADD" xml:space="preserve">
+    <value>尝试新增时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_BUILDTREE" xml:space="preserve">
+    <value>在生成权限树时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_CANT_DELETE" xml:space="preserve">
+    <value>您不能删除</value>
+  </data>
+  <data name="MSG_ERR_CANT_EDIT" xml:space="preserve">
+    <value>您不能编辑</value>
+  </data>
+  <data name="MSG_ERR_CANT_SAMEAS" xml:space="preserve">
+    <value>父结点不能是自身。</value>
+  </data>
+  <data name="MSG_ERR_CANT_SAMEAS_SYSTEM" xml:space="preserve">
+    <value>您输入的模块 ID不能和系统ID相同。</value>
+  </data>
+  <data name="MSG_ERR_CFG_SYSID" xml:space="preserve">
+    <value>不正确的配置：SYSTEM_ID在配置信息中不存在！</value>
+  </data>
+  <data name="MSG_ERR_CHECK_PASSWORD" xml:space="preserve">
+    <value>验证失败，请检查用户名和密码是否正确！</value>
+  </data>
+  <data name="MSG_ERR_DB_EXEC" xml:space="preserve">
+    <value>执行数据库操作时发生错误。 \\r\\n\\r\\n描述: </value>
+  </data>
+  <data name="MSG_ERR_DELETE" xml:space="preserve">
+    <value>尝试删除时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_DELETE_ALL_SUCCESS" xml:space="preserve">
+    <value>您选择的项包括其子结点都已被成功删除！</value>
+  </data>
+  <data name="MSG_ERR_DELETE_FAILED" xml:space="preserve">
+    <value>删除失败！</value>
+  </data>
+  <data name="MSG_ERR_DELETE_NO_ITEM" xml:space="preserve">
+    <value>您没有选择要删除的项！</value>
+  </data>
+  <data name="MSG_ERR_DELETE_SUCCESS" xml:space="preserve">
+    <value>选择的项已被删除！</value>
+  </data>
+  <data name="MSG_ERR_ERROR" xml:space="preserve">
+    <value>错误：</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_ADDRESS" xml:space="preserve">
+    <value>请输入/选择网址!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_CFG_NAME" xml:space="preserve">
+    <value>请输入/选择参数名称！</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_CFG_VALUE" xml:space="preserve">
+    <value>请输入/选择参数值！</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_DEPT" xml:space="preserve">
+    <value>请输入/选择部门！</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_DISP_NAME" xml:space="preserve">
+    <value>请输入/选择名称!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_MOD" xml:space="preserve">
+    <value>请输入/选择模块名称。</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_ORDER" xml:space="preserve">
+    <value>请输入/选择顺序号。</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_PMOD" xml:space="preserve">
+    <value>请输入/选择父模块。</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_ROLE" xml:space="preserve">
+    <value>请输入/选择角色。</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_SUBSYS" xml:space="preserve">
+    <value>請選擇子系統！</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_USER" xml:space="preserve">
+    <value>请输入/选择用户。</value>
+  </data>
+  <data name="MSG_ERR_FLILLIN_MODID" xml:space="preserve">
+    <value>请输入/选择模块ID。</value>
+  </data>
+  <data name="MSG_ERR_FLOWER_DELETE" xml:space="preserve">
+    <value>删除FlowER表单时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_FLOWER_DELFORM" xml:space="preserve">
+    <value>撤销表单时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_FLOWER_SEND_FAIL" xml:space="preserve">
+    <value>向FlowER送签表单时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_FLOWER_SENDFORM" xml:space="preserve">
+    <value>送签时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_FUNC_FAIL_DEL_FUNC" xml:space="preserve">
+    <value>删除功能项不成功，\\r\\n描述： </value>
+  </data>
+  <data name="MSG_ERR_FUNC_FAIL_DEL_ROLE" xml:space="preserve">
+    <value>删除角色不成功，\\r\\n描述： </value>
+  </data>
+  <data name="MSG_ERR_FUNC_ID_NAME_EMPTY" xml:space="preserve">
+    <value>功能 ID 和 名称 不能为空。</value>
+  </data>
+  <data name="MSG_ERR_GET_SUBITEM" xml:space="preserve">
+    <value>在获取子结点时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_IE_VER" xml:space="preserve">
+    <value>请升级您的IE浏览器的版本到6或更高！</value>
+  </data>
+  <data name="MSG_ERR_LINK_EXISTED" xml:space="preserve">
+    <value>该链接已存在于数据库中！</value>
+  </data>
+  <data name="MSG_ERR_LINK_NOTEXISTED" xml:space="preserve">
+    <value>该链接在数据库中不存在！</value>
+  </data>
+  <data name="MSG_ERR_LOG" xml:space="preserve">
+    <value>写Log文件时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_LOGINNAM_NOTEXISTED" xml:space="preserve">
+    <value>用户名不存在</value>
+  </data>
+  <data name="MSG_ERR_LOGINNAME_EMPTY" xml:space="preserve">
+    <value>用户名不可为空</value>
+  </data>
+  <data name="MSG_ERR_LOGINNAME_EXISTED" xml:space="preserve">
+    <value>用户名已存在</value>
+  </data>
+  <data name="MSG_ERR_MAIL_ADD_CONTENT" xml:space="preserve">
+    <value>错误： CONTENT 不能为空值！</value>
+  </data>
+  <data name="MSG_ERR_MAIL_ADD_RECEIVER" xml:space="preserve">
+    <value>错误： RECEIVER 不能为空值！  </value>
+  </data>
+  <data name="MSG_ERR_MAIL_ADD_SUBJECT" xml:space="preserve">
+    <value>错误： SUBJECT  不能为空值！</value>
+  </data>
+  <data name="MSG_ERR_MAIL_CONN_SEND" xml:space="preserve">
+    <value>邮件服务的配置不正确！</value>
+  </data>
+  <data name="MSG_ERR_MAIL_EMPTY" xml:space="preserve">
+    <value>邮件地址必须输入</value>
+  </data>
+  <data name="MSG_ERR_MAIL_TEMPLATE" xml:space="preserve">
+    <value>尝试建立邮件模版时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_MENUTYPE_EMPTY" xml:space="preserve">
+    <value>请选择链接类型！</value>
+  </data>
+  <data name="MSG_ERR_MOD_SAMEAS_SYS" xml:space="preserve">
+    <value>模块ID不能与系统名相同</value>
+  </data>
+  <data name="MSG_ERR_NORIGHT" xml:space="preserve">
+    <value>您没有权限访问该页！</value>
+  </data>
+  <data name="MSG_ERR_PAGER_NO_CTRL" xml:space="preserve">
+    <value>没有定义的数据控件可被装载！</value>
+  </data>
+  <data name="MSG_ERR_PASSWORD_EMPTY" xml:space="preserve">
+    <value>密码不能为空！</value>
+  </data>
+  <data name="MSG_ERR_PASSWORD_INCORRECT" xml:space="preserve">
+    <value>不正确的密码！</value>
+  </data>
+  <data name="MSG_ERR_PASSWORD_RTV" xml:space="preserve">
+    <value>尝试获取用户密码时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_PROPERTY_NOTFOUND" xml:space="preserve">
+    <value>找不到指定的属性</value>
+  </data>
+  <data name="MSG_ERR_PROTECTED_ITEM" xml:space="preserve">
+    <value>您不能编辑系统保护的项！</value>
+  </data>
+  <data name="MSG_ERR_REPORT_CREATE" xml:space="preserve">
+    <value>生成报表失败！</value>
+  </data>
+  <data name="MSG_ERR_REPORT_PARAM_EMPTY" xml:space="preserve">
+    <value>生成报表所需的参数不存在，请重新生成报表！</value>
+  </data>
+  <data name="MSG_ERR_RMV_QUOTO" xml:space="preserve">
+    <value>请确认输入的字符中没有单引号。</value>
+  </data>
+  <data name="MSG_ERR_ROLE_EMPTY" xml:space="preserve">
+    <value>角色 ID和角色名称不能为空！</value>
+  </data>
+  <data name="MSG_ERR_SAVE_SUCCESS" xml:space="preserve">
+    <value>保存成功！</value>
+  </data>
+  <data name="MSG_ERR_SET_CK" xml:space="preserve">
+    <value>操作Cookie时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_SETTING_EXIST" xml:space="preserve">
+    <value>该项已存在！</value>
+  </data>
+  <data name="MSG_ERR_SETTING_NOTEXIST" xml:space="preserve">
+    <value>该项在数据库中不存在！</value>
+  </data>
+  <data name="MSG_ERR_SMS_SIWTCH_OFF" xml:space="preserve">
+    <value>短消息开关的状态为关闭，您不能发送短消息！</value>
+  </data>
+  <data name="MSG_ERR_UPDATE" xml:space="preserve">
+    <value>尝试更新保存时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD" xml:space="preserve">
+    <value>上传文件失败！</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_DELETE" xml:space="preserve">
+    <value>错误： 参数 p_intSEQ 不能为空值！</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_DELETE_SUCCESS" xml:space="preserve">
+    <value>附件已被删除！</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_ERROR" xml:space="preserve">
+    <value>上传过程中发生错误： </value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_FAIL" xml:space="preserve">
+    <value>上传附件失败！</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_FILELMT" xml:space="preserve">
+    <value>上传的文件最大40兆字节。</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_GENHTML" xml:space="preserve">
+    <value>在生成附件的HTML代码时发生错误！</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_LACATE" xml:space="preserve">
+    <value>不能定位文件路径！</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_NOFILE" xml:space="preserve">
+    <value>没有选择文件。</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_NOTYPE" xml:space="preserve">
+    <value>参数Type和ID为空，您不能上传文件。</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_SUCCESS" xml:space="preserve">
+    <value>附件上传成功！</value>
+  </data>
+  <data name="MSG_ERR_USER_DELETE" xml:space="preserve">
+    <value>尝试删除用户时发生错误！ \\r\\n描述: </value>
+  </data>
+  <data name="MSG_ERR_USER_EMPTY" xml:space="preserve">
+    <value>用户名不能为空！</value>
+  </data>
+  <data name="MSG_ERR_VALUE_EMPTY" xml:space="preserve">
+    <value>参数不能为空值！</value>
+  </data>
+  <data name="MSG_ERR_XML_FORMAT" xml:space="preserve">
+    <value>XML包格式有错误。</value>
+  </data>
+  <data name="MSG_TIP_ACTLOGIN" xml:space="preserve">
+    <value>登录帐号为FlowER帐号。</value>
+  </data>
+  <data name="MSG_TIP_CHGLANG" xml:space="preserve">
+    <value>选取Language下拉框中的语言项可改变当前语言设置；</value>
+  </data>
+  <data name="MSG_TIP_DELETE_CONFIRM" xml:space="preserve">
+    <value>确定要删除选中的项吗？</value>
+  </data>
+  <data name="MSG_TIP_DIV_CANCELLING" xml:space="preserve">
+    <value>正在取消 ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_DELETING" xml:space="preserve">
+    <value>正在删除 ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_LOADING" xml:space="preserve">
+    <value>正在处理 ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_PROCESSING" xml:space="preserve">
+    <value>正在处理 ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_SAVING" xml:space="preserve">
+    <value>正在保存 ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_WORKING" xml:space="preserve">
+    <value>正在处理 ...</value>
+  </data>
+  <data name="MSG_TIP_FIRST_PAGE" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="MSG_TIP_GET_PWD" xml:space="preserve">
+    <value>将密码送到您的邮箱</value>
+  </data>
+  <data name="MSG_TIP_GOTO_PAGE" xml:space="preserve">
+    <value>转到该页</value>
+  </data>
+  <data name="MSG_TIP_HELLO" xml:space="preserve">
+    <value>您好 </value>
+  </data>
+  <data name="MSG_TIP_HITCOUNT" xml:space="preserve">
+    <value>访问次数:</value>
+  </data>
+  <data name="MSG_TIP_LAST_PAGE" xml:space="preserve">
+    <value>最后一页</value>
+  </data>
+  <data name="MSG_TIP_NEXT_PAGE" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="MSG_TIP_PAGE_TIP" xml:space="preserve">
+    <value>当前页/页数</value>
+  </data>
+  <data name="MSG_TIP_PAGER_PAGE" xml:space="preserve">
+    <value>页 {0} 共 {1}</value>
+  </data>
+  <data name="MSG_TIP_PAGER_REC_PER_PAGE" xml:space="preserve">
+    <value>每页显示的记录数</value>
+  </data>
+  <data name="MSG_TIP_PASSWORD_MAIL" xml:space="preserve">
+    <value>您的密码已发送到您的邮箱中了。</value>
+  </data>
+  <data name="MSG_TIP_PREV_PAGE" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="MSG_TIP_REFRESH" xml:space="preserve">
+    <value>使用Windows帐号进入系统</value>
+  </data>
+  <data name="MSG_TIP_TIPS" xml:space="preserve">
+    <value>提示: </value>
+  </data>
+  <data name="MSG_TIP_TOTAL_RECORD" xml:space="preserve">
+    <value>总记录：{0}</value>
+  </data>
+  <data name="MSG_TIP_USER_SELECTOR" xml:space="preserve">
+    <value>提示： 您可以输入部门代码或用户名来查找数据。</value>
+  </data>
+</root>

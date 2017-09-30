@@ -1,0 +1,36 @@
+INFO  2017-09-15 13:55:12,316   843ms DbSession                 - Text:	--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]	
+
+SQL:--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]
+
+INFO  2017-09-15 13:58:13,689 182216ms DbSession                 - Text:	--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]	
+
+SQL:--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]
+
+INFO  2017-09-15 13:58:58,266 226793ms DbSession                 - Text:	--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]	
+
+SQL:--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]
+
+INFO  2017-09-15 14:03:18,471 486998ms DbSession                 - Text:	--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]	
+
+SQL:--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]
+
+INFO  2017-09-15 14:03:31,363 499890ms DbSession                 - Text:	--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]	
+
+SQL:--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]
+
+INFO  2017-09-15 14:07:03,556 712083ms DbSession                 - Text:	--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]	
+
+SQL:--iisexpress.NGF.Base.Base.PageBase.GetLanguageData()
+SELECT   [ngf_language].[language_key] AS [language_key],[ngf_language].[en_us] AS [en_us],[ngf_language].[zh_cn] AS [zh_cn],[ngf_language].[zh_tw] AS [zh_tw] FROM [ngf_language]
+

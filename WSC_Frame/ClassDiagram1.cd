@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WSC.GlobalDefinition">
+    <Position X="2.5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACCA4AEAAAAAQABAgAAAIAQABAEAAwAAAAAAAAAAIg=</HashCode>
+      <FileName>GlobalDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WSC.Common.CultureRes">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAABAAAAABAAAAABAAEgAAAAAAAAAAKA=</HashCode>
+      <FileName>Common\CultureRes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WSC.Common.CommonEnum">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="WSC.Common.CommonEnum.MailType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Common\CommonEnum.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WSC.Common.CommonEnum.LogActionType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Common\CommonEnum.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WSC.Common.CommonEnum.EditActionType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Common\CommonEnum.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WSC.Common.CommonEnum.Culture">
+        <TypeIdentifier>
+          <NewMemberFileName>Common\CommonEnum.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WSC.Common.CommonEnum.WindowTarget" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Common\CommonEnum.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WSC.Common.CommonEnum.MessageType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Common\CommonEnum.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="WSC.Common.CommonEnum.Error" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Common\CommonEnum.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\CommonEnum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="SimSun" Size="9" />
+</ClassDiagram>

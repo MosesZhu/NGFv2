@@ -1,0 +1,8 @@
+F:\NGF\NGF.Demo\NGF.Demo.Model\bin\Debug\NGF.Demo.Model.dll
+F:\NGF\NGF.Demo\NGF.Demo.Model\bin\Debug\NGF.Demo.Model.pdb
+F:\NGF\NGF.Demo\NGF.Demo.Model\bin\Debug\ITS.Data.dll
+F:\NGF\NGF.Demo\NGF.Demo.Model\bin\Debug\log4net.dll
+F:\NGF\NGF.Demo\NGF.Demo.Model\bin\Debug\Oracle.DataAccess.dll
+F:\NGF\NGF.Demo\NGF.Demo.Model\obj\Debug\NGF.Demo.Model.dll
+F:\NGF\NGF.Demo\NGF.Demo.Model\obj\Debug\NGF.Demo.Model.pdb
+F:\NGF\NGF.Demo\NGF.Demo.Model\obj\Debug\NGF.Demo.Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,61 @@
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC.Res.CultureRes_EN.resources
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC.Res.CultureRes_SC.resources
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC.Res.CultureRes_TC.resources
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC.Res.MainRes.resources
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_EN.resources
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_SC.resources
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_TC.resources
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC_Frame.csproj.GenerateResource.Cache
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\bin\Debug\WSC_Frame.xml
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\bin\Debug\WSC_Frame.dll
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\bin\Debug\WSC_Frame.pdb
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\bin\Debug\Anthem.dll
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\bin\Debug\log4net.dll
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC_Frame.dll
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC_Frame.pdb
+F:\Workspace\svn_new\Public\WSC Web Application\WSC_Frame\obj\Debug\WSC_Frame.csprojResolveAssemblyReference.cache
+F:\Cube\WSC_Frame\bin\Debug\WSC_Frame.xml
+F:\Cube\WSC_Frame\bin\Debug\WSC_Frame.dll
+F:\Cube\WSC_Frame\bin\Debug\WSC_Frame.pdb
+F:\Cube\WSC_Frame\bin\Debug\log4net.dll
+F:\Cube\WSC_Frame\obj\Debug\WSC.Res.CultureRes_EN.resources
+F:\Cube\WSC_Frame\obj\Debug\WSC.Res.CultureRes_SC.resources
+F:\Cube\WSC_Frame\obj\Debug\WSC.Res.CultureRes_TC.resources
+F:\Cube\WSC_Frame\obj\Debug\WSC.Res.MainRes.resources
+F:\Cube\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_EN.resources
+F:\Cube\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_SC.resources
+F:\Cube\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_TC.resources
+F:\Cube\WSC_Frame\obj\Debug\WSC_Frame.csproj.GenerateResource.Cache
+F:\Cube\WSC_Frame\obj\Debug\WSC_Frame.dll
+F:\Cube\WSC_Frame\obj\Debug\WSC_Frame.pdb
+F:\Cube\WSC_Frame\obj\Debug\WSC_Frame.csprojResolveAssemblyReference.cache
+F:\NGF\WSC_Frame\bin\Debug\WSC_Frame.xml
+F:\NGF\WSC_Frame\bin\Debug\WSC_Frame.dll
+F:\NGF\WSC_Frame\bin\Debug\WSC_Frame.pdb
+F:\NGF\WSC_Frame\bin\Debug\log4net.dll
+F:\NGF\WSC_Frame\obj\Debug\WSC.Res.CultureRes_EN.resources
+F:\NGF\WSC_Frame\obj\Debug\WSC.Res.CultureRes_SC.resources
+F:\NGF\WSC_Frame\obj\Debug\WSC.Res.CultureRes_TC.resources
+F:\NGF\WSC_Frame\obj\Debug\WSC.Res.MainRes.resources
+F:\NGF\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_EN.resources
+F:\NGF\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_SC.resources
+F:\NGF\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_TC.resources
+F:\NGF\WSC_Frame\obj\Debug\WSC_Frame.csproj.GenerateResource.Cache
+F:\NGF\WSC_Frame\obj\Debug\WSC_Frame.dll
+F:\NGF\WSC_Frame\obj\Debug\WSC_Frame.pdb
+F:\NGF\WSC_Frame\obj\Debug\WSC_Frame.csprojResolveAssemblyReference.cache
+F:\NGFv2\WSC_Frame\bin\Debug\WSC_Frame.xml
+F:\NGFv2\WSC_Frame\bin\Debug\WSC_Frame.dll
+F:\NGFv2\WSC_Frame\bin\Debug\WSC_Frame.pdb
+F:\NGFv2\WSC_Frame\bin\Debug\log4net.dll
+F:\NGFv2\WSC_Frame\obj\Debug\WSC_Frame.csprojResolveAssemblyReference.cache
+F:\NGFv2\WSC_Frame\obj\Debug\WSC.Res.CultureRes_EN.resources
+F:\NGFv2\WSC_Frame\obj\Debug\WSC.Res.CultureRes_SC.resources
+F:\NGFv2\WSC_Frame\obj\Debug\WSC.Res.CultureRes_TC.resources
+F:\NGFv2\WSC_Frame\obj\Debug\WSC.Res.MainRes.resources
+F:\NGFv2\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_EN.resources
+F:\NGFv2\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_SC.resources
+F:\NGFv2\WSC_Frame\obj\Debug\WSC.Res.AspPagerRes_TC.resources
+F:\NGFv2\WSC_Frame\obj\Debug\WSC_Frame.csproj.GenerateResource.Cache
+F:\NGFv2\WSC_Frame\obj\Debug\WSC_Frame.dll
+F:\NGFv2\WSC_Frame\obj\Debug\WSC_Frame.pdb

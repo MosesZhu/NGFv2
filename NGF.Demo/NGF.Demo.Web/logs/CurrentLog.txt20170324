@@ -1,0 +1,146 @@
+INFO  2017-03-16 09:55:24,119   201ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5'
+
+INFO  2017-03-16 09:55:24,135   217ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-16 09:55:24,188   270ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-16 09:56:03,056 39138ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5'
+
+INFO  2017-03-16 09:56:03,067 39149ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-16 09:56:03,076 39158ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5'
+
+INFO  2017-03-16 09:56:03,082 39164ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-16 09:56:05,391 41473ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-03-16 10:28:18,463 1974545ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5'
+
+INFO  2017-03-16 10:28:18,467 1974549ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-16 10:28:18,472 1974554ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-16 10:28:32,170 1988252ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5'
+
+INFO  2017-03-16 10:28:32,182 1988264ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-16 10:28:32,190 1988272ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]	
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_language].[language_key] AS [language_key],[cb_language].[en_us] AS [en_us],[cb_language].[zh_cn] AS [zh_cn],[cb_language].[zh_tw] AS [zh_tw] FROM [cb_language]
+
+INFO  2017-03-16 10:28:33,706 1989788ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5'
+
+INFO  2017-03-16 10:28:33,720 1989802ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-16 10:28:33,733 1989815ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = @p1	
+Parameters:
+@p1[Guid] = fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   [cb_token].* FROM [cb_token]  WHERE [cb_token].[secret_key] = 'fd165cb3-f5ec-4530-bb4b-ea545d7ad4e5'
+
+INFO  2017-03-16 10:28:33,743 1989825ms DbSession                 - Text:	--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = @p1	
+Parameters:
+@p1[Guid] = 321dd028-b221-499a-bda4-ae0b6e310ad8
+
+SQL:--iisexpress.Cube.Base.Utility.TokenUtility.ValidToken()
+SELECT   TOP 1 * FROM [cb_user]  WHERE [cb_user].[id] = '321dd028-b221-499a-bda4-ae0b6e310ad8'
+
+INFO  2017-03-16 10:28:36,361 1992443ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+

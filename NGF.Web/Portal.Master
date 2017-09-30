@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Portal.Master.cs" Inherits="NGF.Web.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/Content/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="PageHeadContentHolder" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body class="skin-blue fixed" data-spy="scroll" data-target="#scrollspy">    
+    <form runat="server">               
+        <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+        <div id="messageDialog" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h1 class="modal-title" id="messageDialogTitle"></h1>
+                    </div>
+                    <div class="modal-body">
+                        <p id="messageDialogContent"></p>
+                        <p class="text-warning"><small id="messageDialogWarningContent"></small></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button"  class="btn btn-primary btn-flat header-toggle btn-skin-primary" data-dismiss="modal" data-dismiss="modal" lang="lang_close">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="confirmDialog" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h1 class="modal-title" id="confirmDialogTitle" lang="lang_confirm">Confirm</h1>
+                    </div>
+                    <div class="modal-body">
+                        <p id="confirmDialogContent"></p>
+                        <p class="text-warning"><small id="confirmDialogWarningContent"></small></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="ngf-btn-confirm" data-dismiss="modal" id="btnConfirmDialogConfirm">Confirm</button>
+                        <button class="ngf-btn-cancel" data-dismiss="modal" id="btnConfirmDialogCancel">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="customerDialogContainer">
+        </div>
+
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="uriAnchor" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="bootstrap-table" />
+                <asp:ScriptReference Name="bootstrap-table.en-US" />
+                <asp:ScriptReference Name="bootstrap-table.zh-CN" />
+                <asp:ScriptReference Name="bootstrap-table.zh-TW" />
+                <asp:ScriptReference Name="bootstrap-contextmenu" />
+                <asp:ScriptReference Name="fastclick" />
+                <asp:ScriptReference Name="AdminLTE" />
+                <asp:ScriptReference Name="slimscroll" />
+                <asp:ScriptReference Name="respond" />                
+                <asp:ScriptReference Name="icheck" />
+                <asp:ScriptReference Name="cookie" />                
+                <asp:ScriptReference Name="alertifyjs" />
+                <asp:ScriptReference Name="wresize" />
+                <asp:ScriptReference Name="ngf.portal" />
+                <asp:ScriptReference Name="ngf.framework" />                
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>        
+    </form>
+    <asp:ContentPlaceHolder ID="PageScriptContentHolder" runat="server">
+
+    </asp:ContentPlaceHolder>       
+</body>
+</html>

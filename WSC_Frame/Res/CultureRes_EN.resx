@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CAP_BTN_ADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CAP_BTN_CLOSE" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CAP_BTN_COLLAPSE" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="CAP_BTN_DELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CAP_BTN_DELETE_FILE" xml:space="preserve">
+    <value>Delete file</value>
+  </data>
+  <data name="CAP_BTN_EXPAND" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="CAP_BTN_FINISH" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CAP_BTN_GETPASSWORD" xml:space="preserve">
+    <value>Forget Password</value>
+  </data>
+  <data name="CAP_BTN_LOGIN" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="CAP_BTN_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CAP_BTN_QUERY" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="CAP_BTN_QUERYALL" xml:space="preserve">
+    <value>Query all</value>
+  </data>
+  <data name="CAP_BTN_REFRESH" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="CAP_BTN_REPAIRE" xml:space="preserve">
+    <value>Repaire</value>
+  </data>
+  <data name="CAP_BTN_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="CAP_BTN_SEARCH" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="CAP_BTN_SYS_ADMIN_CLEAN" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="CAP_BTN_SYS_ADMIN_SYNC_STATUS" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="CAP_BTN_UPLOAD" xml:space="preserve">
+    <value>Attach</value>
+  </data>
+  <data name="CAP_BTN_VALIDATE" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="CAP_CHECKBOX_AUTHORITY" xml:space="preserve">
+    <value>Auto Check</value>
+  </data>
+  <data name="CAP_LBL_ACTIVE" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="CAP_LBL_ADDRESS" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="CAP_LBL_BY_DEPT" xml:space="preserve">
+    <value>By Department</value>
+  </data>
+  <data name="CAP_LBL_BY_MOD" xml:space="preserve">
+    <value>By Module</value>
+  </data>
+  <data name="CAP_LBL_BY_ROLE" xml:space="preserve">
+    <value>By Role</value>
+  </data>
+  <data name="CAP_LBL_BY_SITE" xml:space="preserve">
+    <value>By Site</value>
+  </data>
+  <data name="CAP_LBL_BY_USER" xml:space="preserve">
+    <value>By User</value>
+  </data>
+  <data name="CAP_LBL_CHECK_AUTHORITY" xml:space="preserve">
+    <value>Menu Authority</value>
+  </data>
+  <data name="CAP_LBL_DEPT" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="CAP_LBL_DEPT_CODE" xml:space="preserve">
+    <value>Dept</value>
+  </data>
+  <data name="CAP_LBL_DESC" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CAP_LBL_DISP_STYLE" xml:space="preserve">
+    <value>Display style</value>
+  </data>
+  <data name="CAP_LBL_DISPLAY_NAME" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="CAP_LBL_EMP_ID" xml:space="preserve">
+    <value>Emp Id</value>
+  </data>
+  <data name="CAP_LBL_EMP_NAME" xml:space="preserve">
+    <value>Emp Name</value>
+  </data>
+  <data name="CAP_LBL_EMP_NO" xml:space="preserve">
+    <value>Emp No.</value>
+  </data>
+  <data name="CAP_LBL_ENTRY_DATE" xml:space="preserve">
+    <value>Entry Date</value>
+  </data>
+  <data name="CAP_LBL_EXT" xml:space="preserve">
+    <value>Ext.</value>
+  </data>
+  <data name="CAP_LBL_EXT_NO" xml:space="preserve">
+    <value>Ext No</value>
+  </data>
+  <data name="CAP_LBL_FILE_NAME" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="CAP_LBL_FUNC_ID" xml:space="preserve">
+    <value>Function ID</value>
+  </data>
+  <data name="CAP_LBL_HEADLINK_PUPOP" xml:space="preserve">
+    <value>P--Pop up new window</value>
+  </data>
+  <data name="CAP_LBL_HEADLINK_SELF" xml:space="preserve">
+    <value>L--Self window</value>
+  </data>
+  <data name="CAP_LBL_IS_SYS" xml:space="preserve">
+    <value>Sys.Protected</value>
+  </data>
+  <data name="CAP_LBL_JOB_DESC" xml:space="preserve">
+    <value>Job Desc</value>
+  </data>
+  <data name="CAP_LBL_KEY" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="CAP_LBL_LINKTYPE" xml:space="preserve">
+    <value>Link Type</value>
+  </data>
+  <data name="CAP_LBL_LOGIN_NAME" xml:space="preserve">
+    <value>Login Name</value>
+  </data>
+  <data name="CAP_LBL_MAIL_ACCOUNT" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="CAP_LBL_MODULE" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="CAP_LBL_MODULE_ID" xml:space="preserve">
+    <value>Module ID</value>
+  </data>
+  <data name="CAP_LBL_MODULE_NAME" xml:space="preserve">
+    <value>Module Name</value>
+  </data>
+  <data name="CAP_LBL_MODULE_NAME_SC" xml:space="preserve">
+    <value>Module Name SC</value>
+  </data>
+  <data name="CAP_LBL_MODULE_NAME_TC" xml:space="preserve">
+    <value>Module Name TC</value>
+  </data>
+  <data name="CAP_LBL_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CAP_LBL_NAVIGATING" xml:space="preserve">
+    <value>Left navigation</value>
+  </data>
+  <data name="CAP_LBL_ORDER" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="CAP_LBL_PARENT_ID" xml:space="preserve">
+    <value>Parent ID</value>
+  </data>
+  <data name="CAP_LBL_PARENT_MODULE" xml:space="preserve">
+    <value>Parent Module</value>
+  </data>
+  <data name="CAP_LBL_PARENT_NAME" xml:space="preserve">
+    <value>Parent Name</value>
+  </data>
+  <data name="CAP_LBL_PASS_WORD" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="CAP_LBL_PASSWORD" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="CAP_LBL_RESULT" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CAP_LBL_ROLE" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="CAP_LBL_ROLE_ID" xml:space="preserve">
+    <value>Role ID</value>
+  </data>
+  <data name="CAP_LBL_ROLE_NAME" xml:space="preserve">
+    <value>Role Name</value>
+  </data>
+  <data name="CAP_LBL_SITE" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="CAP_LBL_SITE_CODE" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="CAP_LBL_SUB_SYS_ID" xml:space="preserve">
+    <value>Sub Sys ID</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_CLEAN_FORM" xml:space="preserve">
+    <value>Clean up the rubbish forms of NPM </value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_SYNC_INV" xml:space="preserve">
+    <value>The Status of INV forms and FlowER forms</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_SYNC_ITEM" xml:space="preserve">
+    <value>The Status of Item No forms and FlowER forms</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_SYNC_PACN" xml:space="preserve">
+    <value>The Status of PACN forms and FlowER forms</value>
+  </data>
+  <data name="CAP_LBL_SYS_ADMIN_SYNC_STATUS" xml:space="preserve">
+    <value>Form Status synchronization</value>
+  </data>
+  <data name="CAP_LBL_UPLOAD_BROWSE" xml:space="preserve">
+    <value>Browse file</value>
+  </data>
+  <data name="CAP_LBL_UPLOAD_TIME" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="CAP_LBL_UPLOADER" xml:space="preserve">
+    <value>Uploader</value>
+  </data>
+  <data name="CAP_LBL_USER" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="CAP_LBL_USER_NAME" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="CAP_LBL_VALUE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CAP_TTL_ACTIVE" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="CAP_TTL_DEPT_MODULE" xml:space="preserve">
+    <value>Security--&gt;Department security setup</value>
+  </data>
+  <data name="CAP_TTL_FUNC" xml:space="preserve">
+    <value>Module's Function setup</value>
+  </data>
+  <data name="CAP_TTL_HEADLINK" xml:space="preserve">
+    <value>Header menu link </value>
+  </data>
+  <data name="CAP_TTL_HEADLINK_EDIT" xml:space="preserve">
+    <value>Edit Header link</value>
+  </data>
+  <data name="CAP_TTL_LEFTMENU" xml:space="preserve">
+    <value>Left navigation setup</value>
+  </data>
+  <data name="CAP_TTL_LEFTMENU_EDIT" xml:space="preserve">
+    <value>Edit Navigation menu Item</value>
+  </data>
+  <data name="CAP_TTL_PARA" xml:space="preserve">
+    <value>Parameter setup</value>
+  </data>
+  <data name="CAP_TTL_PARA_EDIT" xml:space="preserve">
+    <value> Edit Parameter</value>
+  </data>
+  <data name="CAP_TTL_PMT_QRY" xml:space="preserve">
+    <value>Security--&gt;Security Query</value>
+  </data>
+  <data name="CAP_TTL_ROLE" xml:space="preserve">
+    <value>Security--&gt;Role Maintanance</value>
+  </data>
+  <data name="CAP_TTL_ROLE_DEPT" xml:space="preserve">
+    <value>Security--&gt;Role-Department setup</value>
+  </data>
+  <data name="CAP_TTL_ROLE_MODULE" xml:space="preserve">
+    <value>Security--&gt;Role security setup</value>
+  </data>
+  <data name="CAP_TTL_ROLE_USER" xml:space="preserve">
+    <value>Security--&gt;Role-User setup</value>
+  </data>
+  <data name="CAP_TTL_SIMULATE_USER" xml:space="preserve">
+    <value>Simulating User </value>
+  </data>
+  <data name="CAP_TTL_SITE_MODULE" xml:space="preserve">
+    <value>Security--&gt;Site security setup</value>
+  </data>
+  <data name="CAP_TTL_SYS_ADMIN" xml:space="preserve">
+    <value>NPM Management tool</value>
+  </data>
+  <data name="CAP_TTL_UPLOAD" xml:space="preserve">
+    <value>Upload file</value>
+  </data>
+  <data name="CAP_TTL_USER_ACTIVE" xml:space="preserve">
+    <value>Y--Active</value>
+  </data>
+  <data name="CAP_TTL_USER_EDIT" xml:space="preserve">
+    <value>User Maintain Edit</value>
+  </data>
+  <data name="CAP_TTL_USER_INACTIVE" xml:space="preserve">
+    <value>N--Inactive</value>
+  </data>
+  <data name="CAP_TTL_USER_MAINTAIN" xml:space="preserve">
+    <value>User Maintain</value>
+  </data>
+  <data name="CAP_TTL_USER_MODULE" xml:space="preserve">
+    <value>Security--&gt;User security setup</value>
+  </data>
+  <data name="CAP_TTL_USERSELECTOR" xml:space="preserve">
+    <value>Select user</value>
+  </data>
+  <data name="CAP_TTL_VALIDATECFG" xml:space="preserve">
+    <value>Validating system configuration</value>
+  </data>
+  <data name="MSG_ERR_ACCESS_PAGE" xml:space="preserve">
+    <value>Error trying to access this page。</value>
+  </data>
+  <data name="MSG_ERR_ADD" xml:space="preserve">
+    <value>Error trying to add new.</value>
+  </data>
+  <data name="MSG_ERR_BUILDTREE" xml:space="preserve">
+    <value>Error trying to build security control tree!</value>
+  </data>
+  <data name="MSG_ERR_CANT_DELETE" xml:space="preserve">
+    <value>You can not delete </value>
+  </data>
+  <data name="MSG_ERR_CANT_EDIT" xml:space="preserve">
+    <value>You can not edit</value>
+  </data>
+  <data name="MSG_ERR_CANT_SAMEAS" xml:space="preserve">
+    <value>The parent can not be itself.\\r\\nThe module Parent ID you selected can not be same as its self ID.</value>
+  </data>
+  <data name="MSG_ERR_CANT_SAMEAS_SYSTEM" xml:space="preserve">
+    <value>The module ID you just keyed in can not be same as system name.</value>
+  </data>
+  <data name="MSG_ERR_CFG_SYSID" xml:space="preserve">
+    <value>Incorrect system configuration, Description: SYSTEM_ID can not be found in web.config!</value>
+  </data>
+  <data name="MSG_ERR_CHECK_PASSWORD" xml:space="preserve">
+    <value>Please check your user name and password, try again.</value>
+  </data>
+  <data name="MSG_ERR_DB_EXEC" xml:space="preserve">
+    <value>Error occured during executing SQL statement!  \\r\\n\\r\\nDesc: </value>
+  </data>
+  <data name="MSG_ERR_DELETE" xml:space="preserve">
+    <value>Error trying to delete.</value>
+  </data>
+  <data name="MSG_ERR_DELETE_ALL_SUCCESS" xml:space="preserve">
+    <value>The selected items and its sub-items have been deleted successfully!</value>
+  </data>
+  <data name="MSG_ERR_DELETE_FAILED" xml:space="preserve">
+    <value>Failed to delete the selected items.</value>
+  </data>
+  <data name="MSG_ERR_DELETE_NO_ITEM" xml:space="preserve">
+    <value>No any item can be deleted.</value>
+  </data>
+  <data name="MSG_ERR_DELETE_SUCCESS" xml:space="preserve">
+    <value>The selected items have been deleted successfully!</value>
+  </data>
+  <data name="MSG_ERR_ERROR" xml:space="preserve">
+    <value>Exception: </value>
+  </data>
+  <data name="MSG_ERR_FILLIN_ADDRESS" xml:space="preserve">
+    <value>Please fill in the web address!!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_CFG_NAME" xml:space="preserve">
+    <value>Please fill in the configuration name!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_CFG_VALUE" xml:space="preserve">
+    <value>Please fill in the configuration value!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_DEPT" xml:space="preserve">
+    <value>Please select the department!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_DISP_NAME" xml:space="preserve">
+    <value>Please fill in the display name!!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_MOD" xml:space="preserve">
+    <value>Please fill in the Module name!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_ORDER" xml:space="preserve">
+    <value>Please set the order!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_PMOD" xml:space="preserve">
+    <value>Please set the parent Module name!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_ROLE" xml:space="preserve">
+    <value>Please fill/select the role!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_SUBSYS" xml:space="preserve">
+    <value>Please select the Sub Sys ID!</value>
+  </data>
+  <data name="MSG_ERR_FILLIN_USER" xml:space="preserve">
+    <value>Please fill/select the user!</value>
+  </data>
+  <data name="MSG_ERR_FLILLIN_MODID" xml:space="preserve">
+    <value>Please fill in the Module ID!</value>
+  </data>
+  <data name="MSG_ERR_FLOWER_DELETE" xml:space="preserve">
+    <value>Error trying to delete the form in FlowER!</value>
+  </data>
+  <data name="MSG_ERR_FLOWER_DELFORM" xml:space="preserve">
+    <value>Error trying to delete the form in FlowER!</value>
+  </data>
+  <data name="MSG_ERR_FLOWER_SEND_FAIL" xml:space="preserve">
+    <value>Error trying to send the form to FlowER.</value>
+  </data>
+  <data name="MSG_ERR_FLOWER_SENDFORM" xml:space="preserve">
+    <value>Error trying to send the form to FlowER!</value>
+  </data>
+  <data name="MSG_ERR_FUNC_FAIL_DEL_FUNC" xml:space="preserve">
+    <value>Failed to delete the function,\\r\\nDescription: </value>
+  </data>
+  <data name="MSG_ERR_FUNC_FAIL_DEL_ROLE" xml:space="preserve">
+    <value>Failed to delete the role,\\r\\nDescription: </value>
+  </data>
+  <data name="MSG_ERR_FUNC_ID_NAME_EMPTY" xml:space="preserve">
+    <value>FunctionID and Name can not be empty value.</value>
+  </data>
+  <data name="MSG_ERR_GET_SUBITEM" xml:space="preserve">
+    <value>Error trying to retrieve the ignored items ID!</value>
+  </data>
+  <data name="MSG_ERR_IE_VER" xml:space="preserve">
+    <value>Please confirm the IE browser is upgraded to ver 6.0 or later.</value>
+  </data>
+  <data name="MSG_ERR_LINK_EXISTED" xml:space="preserve">
+    <value>This link does not exist in the database.</value>
+  </data>
+  <data name="MSG_ERR_LINK_NOTEXISTED" xml:space="preserve">
+    <value>This link has already existed in the database.</value>
+  </data>
+  <data name="MSG_ERR_LOG" xml:space="preserve">
+    <value>Error trying to log the action to file!</value>
+  </data>
+  <data name="MSG_ERR_LOGINNAM_NOTEXISTED" xml:space="preserve">
+    <value>This login name does not exist in the database.</value>
+  </data>
+  <data name="MSG_ERR_LOGINNAME_EMPTY" xml:space="preserve">
+    <value>Login name can not be empty value.</value>
+  </data>
+  <data name="MSG_ERR_LOGINNAME_EXISTED" xml:space="preserve">
+    <value>This login name has already existed in the database.</value>
+  </data>
+  <data name="MSG_ERR_MAIL_ADD_CONTENT" xml:space="preserve">
+    <value>Exception:  CONTENT can not be empty.</value>
+  </data>
+  <data name="MSG_ERR_MAIL_ADD_RECEIVER" xml:space="preserve">
+    <value>Exception: RECEIVER can not be empty.</value>
+  </data>
+  <data name="MSG_ERR_MAIL_ADD_SUBJECT" xml:space="preserve">
+    <value>Exception: SUBJECT  can not be empty.</value>
+  </data>
+  <data name="MSG_ERR_MAIL_CONN_SEND" xml:space="preserve">
+    <value>Mail service configuration is incorrect!</value>
+  </data>
+  <data name="MSG_ERR_MAIL_EMPTY" xml:space="preserve">
+    <value>Mail can not be empty value.</value>
+  </data>
+  <data name="MSG_ERR_MAIL_TEMPLATE" xml:space="preserve">
+    <value>Error trying to create template file for mail service!</value>
+  </data>
+  <data name="MSG_ERR_MENUTYPE_EMPTY" xml:space="preserve">
+    <value>Menu type can't be empty value!</value>
+  </data>
+  <data name="MSG_ERR_MOD_SAMEAS_SYS" xml:space="preserve">
+    <value>The module ID you keyed in value can not be same as system name</value>
+  </data>
+  <data name="MSG_ERR_NORIGHT" xml:space="preserve">
+    <value>You may have no access permission to visit this page!</value>
+  </data>
+  <data name="MSG_ERR_PAGER_NO_CTRL" xml:space="preserve">
+    <value>Cannot locate the control,not defined.</value>
+  </data>
+  <data name="MSG_ERR_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Password can not be empty value.</value>
+  </data>
+  <data name="MSG_ERR_PASSWORD_INCORRECT" xml:space="preserve">
+    <value>Incorrect password.</value>
+  </data>
+  <data name="MSG_ERR_PASSWORD_RTV" xml:space="preserve">
+    <value>Error trying to retrieve your password.</value>
+  </data>
+  <data name="MSG_ERR_PROPERTY_NOTFOUND" xml:space="preserve">
+    <value>Can not find this property</value>
+  </data>
+  <data name="MSG_ERR_PROTECTED_ITEM" xml:space="preserve">
+    <value>You can not edit the system protected item.</value>
+  </data>
+  <data name="MSG_ERR_REPORT_CREATE" xml:space="preserve">
+    <value>Failed to create report.</value>
+  </data>
+  <data name="MSG_ERR_REPORT_PARAM_EMPTY" xml:space="preserve">
+    <value>Error trying to retrieve report parameters</value>
+  </data>
+  <data name="MSG_ERR_RMV_QUOTO" xml:space="preserve">
+    <value>Please remove the single quotation marks from the value you inputed.</value>
+  </data>
+  <data name="MSG_ERR_ROLE_EMPTY" xml:space="preserve">
+    <value>Role ID and Role Name can not be empty value.</value>
+  </data>
+  <data name="MSG_ERR_SAVE_SUCCESS" xml:space="preserve">
+    <value>Item has been saved successfully!</value>
+  </data>
+  <data name="MSG_ERR_SET_CK" xml:space="preserve">
+    <value>Error trying to set the cokkie.</value>
+  </data>
+  <data name="MSG_ERR_SETTING_EXIST" xml:space="preserve">
+    <value>This setting has already existed in the database.</value>
+  </data>
+  <data name="MSG_ERR_SETTING_NOTEXIST" xml:space="preserve">
+    <value>This setting does not exist in the database.</value>
+  </data>
+  <data name="MSG_ERR_SMS_SIWTCH_OFF" xml:space="preserve">
+    <value>The SMS switch is off, you can not send short message!</value>
+  </data>
+  <data name="MSG_ERR_UPDATE" xml:space="preserve">
+    <value>Error trying to update.</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD" xml:space="preserve">
+    <value>Error trying to upload a file!</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_DELETE" xml:space="preserve">
+    <value>Error: Parameter p_intSEQ can not be zero value.</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_DELETE_SUCCESS" xml:space="preserve">
+    <value>The files have been deleted!</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_ERROR" xml:space="preserve">
+    <value>Error in uploading: </value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_FAIL" xml:space="preserve">
+    <value>Failed to upload file.</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_FILELMT" xml:space="preserve">
+    <value>Here is limited to a 40MB file.</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_GENHTML" xml:space="preserve">
+    <value>Error trying to generate attachment html code.</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_LACATE" xml:space="preserve">
+    <value>Can not locate the file path.</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_NOFILE" xml:space="preserve">
+    <value>No file can be uploaded!</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_NOTYPE" xml:space="preserve">
+    <value>No type and ID found, you can not upload any file.</value>
+  </data>
+  <data name="MSG_ERR_UPLOAD_SUCCESS" xml:space="preserve">
+    <value>File Uploaded successfully!</value>
+  </data>
+  <data name="MSG_ERR_USER_DELETE" xml:space="preserve">
+    <value>Error trying to delete User account. \\r\\nDescription: </value>
+  </data>
+  <data name="MSG_ERR_USER_EMPTY" xml:space="preserve">
+    <value>User name can not be empty value.</value>
+  </data>
+  <data name="MSG_ERR_VALUE_EMPTY" xml:space="preserve">
+    <value>The parameters can not be empty value!</value>
+  </data>
+  <data name="MSG_ERR_XML_FORMAT" xml:space="preserve">
+    <value>Error trying to analyze the XML package.</value>
+  </data>
+  <data name="MSG_TIP_ACTLOGIN" xml:space="preserve">
+    <value>Use FlowER Account to log in.</value>
+  </data>
+  <data name="MSG_TIP_CHGLANG" xml:space="preserve">
+    <value>Use Language option to change the Language.</value>
+  </data>
+  <data name="MSG_TIP_DELETE_CONFIRM" xml:space="preserve">
+    <value>Are you sure to delete the selected item(s)?</value>
+  </data>
+  <data name="MSG_TIP_DIV_CANCELLING" xml:space="preserve">
+    <value>Cancelling ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_DELETING" xml:space="preserve">
+    <value>Deleting ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_LOADING" xml:space="preserve">
+    <value>Loading ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_PROCESSING" xml:space="preserve">
+    <value>Processing ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_SAVING" xml:space="preserve">
+    <value>Saving ...</value>
+  </data>
+  <data name="MSG_TIP_DIV_WORKING" xml:space="preserve">
+    <value>Working ...</value>
+  </data>
+  <data name="MSG_TIP_FIRST_PAGE" xml:space="preserve">
+    <value>First page</value>
+  </data>
+  <data name="MSG_TIP_GET_PWD" xml:space="preserve">
+    <value>Retrieve your FlowER password to your mailbox</value>
+  </data>
+  <data name="MSG_TIP_GOTO_PAGE" xml:space="preserve">
+    <value>Goto the page</value>
+  </data>
+  <data name="MSG_TIP_HELLO" xml:space="preserve">
+    <value>Hello </value>
+  </data>
+  <data name="MSG_TIP_HITCOUNT" xml:space="preserve">
+    <value>HitCount:</value>
+  </data>
+  <data name="MSG_TIP_LAST_PAGE" xml:space="preserve">
+    <value>Last page</value>
+  </data>
+  <data name="MSG_TIP_NEXT_PAGE" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="MSG_TIP_PAGE_TIP" xml:space="preserve">
+    <value>Current page number/Total pages</value>
+  </data>
+  <data name="MSG_TIP_PAGER_PAGE" xml:space="preserve">
+    <value>Page {0} of {1}</value>
+  </data>
+  <data name="MSG_TIP_PAGER_REC_PER_PAGE" xml:space="preserve">
+    <value>The number of records to display on a page</value>
+  </data>
+  <data name="MSG_TIP_PASSWORD_MAIL" xml:space="preserve">
+    <value>Your password has been sent to your mailbox.</value>
+  </data>
+  <data name="MSG_TIP_PREV_PAGE" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="MSG_TIP_REFRESH" xml:space="preserve">
+    <value>Use Windows account to refresh system</value>
+  </data>
+  <data name="MSG_TIP_TIPS" xml:space="preserve">
+    <value>Tips: </value>
+  </data>
+  <data name="MSG_TIP_TOTAL_RECORD" xml:space="preserve">
+    <value>Total Record : {0}</value>
+  </data>
+  <data name="MSG_TIP_USER_SELECTOR" xml:space="preserve">
+    <value>Tips: You may keyin the department code or login name to search the data.</value>
+  </data>
+</root>

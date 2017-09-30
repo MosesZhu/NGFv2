@@ -1,0 +1,14 @@
+F:\Cube\CubeDemo.Model\bin\Debug\CubeDemo.Model.dll
+F:\Cube\CubeDemo.Model\bin\Debug\CubeDemo.Model.pdb
+F:\Cube\CubeDemo.Model\bin\Debug\ITS.Data.dll
+F:\Cube\CubeDemo.Model\bin\Debug\Oracle.DataAccess.dll
+F:\Cube\CubeDemo.Model\bin\Debug\log4net.dll
+F:\Cube\CubeDemo.Model\obj\Debug\CubeDemo.Model.dll
+F:\Cube\CubeDemo.Model\obj\Debug\CubeDemo.Model.pdb
+F:\Cube\CubeDemo\CubeDemo.Model\obj\Debug\CubeDemo.Model.dll
+F:\Cube\CubeDemo\CubeDemo.Model\obj\Debug\CubeDemo.Model.pdb
+F:\Cube\CubeDemo\CubeDemo.Model\bin\Debug\CubeDemo.Model.dll
+F:\Cube\CubeDemo\CubeDemo.Model\bin\Debug\CubeDemo.Model.pdb
+F:\Cube\CubeDemo\CubeDemo.Model\bin\Debug\ITS.Data.dll
+F:\Cube\CubeDemo\CubeDemo.Model\bin\Debug\log4net.dll
+F:\Cube\CubeDemo\CubeDemo.Model\bin\Debug\Oracle.DataAccess.dll

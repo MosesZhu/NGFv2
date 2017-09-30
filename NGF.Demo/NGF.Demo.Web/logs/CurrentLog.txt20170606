@@ -1,0 +1,72 @@
+INFO  2017-06-06 13:45:27,822   500ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]
+
+INFO  2017-06-06 13:45:34,410  7088ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-06-06 13:45:38,823 11501ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[id] = @p1	
+Parameters:
+@p1[Guid] = 614847bb-b942-41e5-bf42-1865411ab407
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[id] = '614847bb-b942-41e5-bf42-1865411ab407'
+
+INFO  2017-06-06 13:45:38,841 11519ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.SaveItem()
+UPDATE [Item] SET [item_no]=@p1,[description]=@p2 WHERE [Item].[id] = @p3	
+Parameters:
+@p1[String] = 9J.2H101.005
+@p2[String] = test433
+@p3[Guid] = 614847bb-b942-41e5-bf42-1865411ab407
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.SaveItem()
+UPDATE [Item] SET [item_no]=N'9J.2H101.005',[description]=N'test433' WHERE [Item].[id] = '614847bb-b942-41e5-bf42-1865411ab407'
+
+INFO  2017-06-06 13:45:40,051 12729ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
+INFO  2017-06-06 17:17:26,286   998ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]
+
+INFO  2017-06-06 17:20:27,383   135ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]
+
+INFO  2017-06-06 17:24:12,946   112ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]
+
+INFO  2017-06-06 17:26:29,680   123ms DbSession                 - Text:	--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]	
+
+SQL:--iisexpress.Cube.Base.PageBase.GetLanguageData()
+SELECT   [mc_language].[language_key] AS [language_key],[mc_language].[en_us] AS [en_us],[mc_language].[zh_cn] AS [zh_cn],[mc_language].[zh_tw] AS [zh_tw] FROM [mc_language]
+
+INFO  2017-06-06 17:26:33,771  4214ms DbSession                 - Text:	--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE @p1	
+Parameters:
+@p1[String] = %%
+
+SQL:--iisexpress.CubeDemo.Web.ItemInquiryService.Inquiry()
+SELECT   * FROM [Item]  WHERE [Item].[item_no] LIKE N'%%'
+
